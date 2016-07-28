@@ -1,7 +1,23 @@
+/*
+Theme Name: ESTP
+Theme URI: https://wordpress.org/themes/ESTP/
+Author: Diane, Arel, Seth
+Author URI: https://wordpress.org/
+Description: Created for the Endangered Species Theatre Project
+Version: 1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: theatre, red, beige, tan, show, play, theater 
+Text Domain: estp
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+
+
 header {
 	width:1280px;
-	margin:0px auto;
-	background:#EEEEEE;	
+	margin:0px auto;	
 	height:150px;
 }
 
@@ -38,14 +54,19 @@ header img {
 	height:50px;
 	background:#DDDDDD;
 	text-align:center;
-	padding-top:5px;
 	margin:0px auto;
+	padding-top:1px;
+	padding-bottom:10px;
 }
 
 #navigation ul li{
 	display:inline;
-	padding-left:40px;
-	padding-right:40px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+#navigation ul li ul.sub-menu {
+	display: none;
 }
 
 #navigation a {
@@ -53,6 +74,7 @@ header img {
 	text-decoration:none;
 	color: #000000;
 	font-family: 'Raleway', sans-serif;
+	margin-top:5px;
 }
 
 #banner {
@@ -68,5 +90,56 @@ header img {
 	margin-right:120px;
 	background:#AAAAAA;
 	text-align:center;
-		font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+#middle {
+	width:1280px;
+	height:560px;
+	background:#EEEEEE;
+	margin:0px auto;
+}
+
+#middle-left {
+	height:555px;
+	width:640px;
+	margin-left:150px;
+	padding-top:5px;
+}
+
+#middle-right {
+	width:400px;
+	float:right;
+	margin-top:-550px;
+}
+
+footer {
+	width:1280px;
+	height:250px;
+	background:#DDDDDD;
+	margin:0px auto;
+}
+
+#f-buttons {
+	float:right;
+	margin-right:170px;
+	margin-top:20px;
+	font-size:14px;
+}
+
+#f-buttons li {
+	width:100px;
+	height:20px;
+	text-align:center;
+	padding-top:5px;
+	background:#CCCCCC;
+	margin-top:8px;
+	list-style-type:none;
+}
+
+#f-buttons a {
+	text-decoration:none;
+	font-family: 'Raleway', sans-serif;
 }

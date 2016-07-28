@@ -100,6 +100,7 @@ header img {
 	height:560px;
 	background:#EEEEEE;
 	margin:0px auto;
+	font-family: 'Raleway', sans-serif;
 }
 
 #middle-left {
@@ -115,11 +116,70 @@ header img {
 	margin-top:-550px;
 }
 
+#showinfo img{
+	float:left;
+}
+
+
+
 footer {
 	width:1280px;
 	height:250px;
 	background:#DDDDDD;
 	margin:0px auto;
+	font-family: 'Raleway', sans-serif;
+	text-decoration:none;
+	color:#000000;
+}
+
+#foot-left {
+	float:left;
+	font-size:20px;
+	margin-left:150px;
+	margin-top:30px;
+}
+
+#foot-left ul {
+	list-style-type: none;
+	line-height: 150%;
+	text-decoration:none;
+}
+
+#foot-left li a {
+	text-decoration:none;
+}
+
+#foot-mid {
+	float:left;
+	font-size:20px;
+	margin-left:80px;
+	margin-top:30px;
+}
+
+#foot-mid ul {
+	list-style-type: none;
+	line-height: 150%;
+	text-decoration:none;
+}
+
+#foot-mid li a {
+	text-decoration:none;
+}
+
+#foot-right {
+	float:left;
+	font-size:20px;
+	margin-left:80px;
+	margin-top:20px;
+}
+
+#foot-right ul {
+	list-style-type: none;
+	line-height: 150%;
+}
+
+#foot-right li a {
+	text-decoration:none;
 }
 
 #f-buttons {

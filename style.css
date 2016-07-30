@@ -18,7 +18,7 @@ This theme, like WordPress, is licensed under the GPL.
 header {
 	width:1280px;
 	margin:0px auto;	
-	height:150px;
+	height:185px;
 }
 
 header img {
@@ -114,6 +114,14 @@ header img {
 	width:400px;
 	float:right;
 	margin-top:-550px;
+}
+
+#showinfo h3 {
+	margin-left:175px;
+}
+
+#showinfo p {
+	margin-left:175px;
 }
 
 #showinfo img{

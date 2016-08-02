@@ -9,7 +9,7 @@
   <link href='https://fonts.googleapis.com/css?family=Raleway:400,600,700' rel='stylesheet' type='text/css'>
 </head>
 <header>
-<a href="http://estp:8888/"><img src="<?php bloginfo('template_directory'); ?>/images/estp-2.png" /></a>
+<a href="http://end-spec-proj:8888/"><img src="<?php bloginfo('template_directory'); ?>/images/estp-2.png" /></a>
 
 <div id="h-buttons">
 <ul>

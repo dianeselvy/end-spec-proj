@@ -11,7 +11,7 @@
   </div> <!-- end page-content -->
   </div> <!-- end content-->
 </body>
-<p>index.php</p>
+<p>single.php</p>
 
 
 

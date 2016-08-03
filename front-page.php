@@ -2,9 +2,9 @@
 
 	<div id="banner">
 	<img src="#">
-		<div id="banner-blip">
+		<a href="#"><div id="banner-blip">
 			<p>More Info >></p>
-		</div>
+		</div></a>
 	</div>
   <div id="middle">	
 	<div id="middle-left">

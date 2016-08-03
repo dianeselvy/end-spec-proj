@@ -13,7 +13,19 @@ Text Domain: estp
 This theme, like WordPress, is licensed under the GPL.
 */
 
+body {
+  position: relative;
+  height: auto;
+  min-height: 100% !important;
+}
 
+#content {
+	height:100%;
+}
+
+#page-content {
+	height:100%;
+}
 
 header {
 	width:1280px;
@@ -97,14 +109,13 @@ header img {
 
 #middle {
 	width:1280px;
-	height:560px;
 	background:#EEEEEE;
+	padding-bottom:20px;
 	margin:0px auto;
 	font-family: 'Raleway', sans-serif;
 }
 
 #middle-left {
-	height:555px;
 	width:640px;
 	margin-left:150px;
 	padding-top:5px;
@@ -114,7 +125,6 @@ header img {
 #middle-right {
 	width:400px;
 	float:right;
-	margin-top:-550px;
 	font-family: 'Raleway', sans-serif;
 }
 

@@ -136,6 +136,10 @@ header img {
 	font-family: 'Raleway', sans-serif;
 }
 
+#showinfo {
+	min-height:100%;	
+}
+
 #showinfo h3 {
 	margin-left:175px;
 }
@@ -163,8 +167,7 @@ footer {
 #foot-left {
 	float:left;
 	font-size:20px;
-	margin-left:150px;
-	margin-top:30px;
+	margin-left:50px;
 }
 
 #foot-left ul {
@@ -180,8 +183,7 @@ footer {
 #foot-mid {
 	float:left;
 	font-size:20px;
-	margin-left:80px;
-	margin-top:30px;
+	margin-left:50px;
 }
 
 #foot-mid ul {
@@ -197,8 +199,7 @@ footer {
 #foot-right {
 	float:left;
 	font-size:20px;
-	margin-left:80px;
-	margin-top:20px;
+	margin-left:30px;
 }
 
 #foot-right ul {
@@ -212,7 +213,7 @@ footer {
 
 #f-buttons {
 	float:right;
-	margin-right:170px;
+	margin-right:70px;
 	margin-top:20px;
 	font-size:14px;
 }

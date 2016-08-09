@@ -1,3 +1,5 @@
+<?php wp_footer(); ?> 
+
 <footer>
 
 <div id="foot-left">

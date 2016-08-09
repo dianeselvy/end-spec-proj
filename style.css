@@ -28,10 +28,13 @@ p {
 h2 {
     font-size:2.125em;
     font-weight:600;
+    margin:0;
+    padding: 0;
 }
 
 h3 {
     font-size:1.875em;
+    
 }
 
 #content {
@@ -137,9 +140,9 @@ header img {
 }
 
 #middle-left h1 {
-    font-family: 'PT Mono', 'Khula', sans-serif;
+    font-family: 'Cutive Mono';
 	font-weight:normal;
-    font-size:2.375em;
+    font-size:2.4em;
 
 }
 
@@ -255,4 +258,5 @@ footer {
 #f-buttons a {
 	text-decoration:none;
     color:#7f1518;
+    
 }

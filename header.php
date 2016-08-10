@@ -6,9 +6,17 @@
   <meta name="robots" content="noindex">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="all" />
+<<<<<<< HEAD
     <!--Google Fonts-->
   <link href='https://fonts.googleapis.com/css?family=Cutive+Mono|Khula:400,600,300' rel='stylesheet' type='text/css'>
     
+=======
+  <link href='https://fonts.googleapis.com/css?family=PT+Mono|Khula' rel='stylesheet' type='text/css'>
+  
+  <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/slick/slick-theme.css"/>
+
+>>>>>>> origin/master
 </head>
 <header>
 <a href="http://end-spec-proj:8888/"><img src="<?php bloginfo('template_directory'); ?>/images/estp-2.png" /></a>

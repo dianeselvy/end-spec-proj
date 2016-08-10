@@ -115,6 +115,7 @@ header img {
     display:block;
 }
 
+<<<<<<< HEAD
 #navigation a:hover {
     background:#E3D3B5;
     color:#7f1518;
@@ -124,10 +125,16 @@ header img {
 #banner {
     width:100%;
 	max-width:1280px;
+=======
+.banner {
+	width:1280px;
+>>>>>>> origin/master
 	height:400px;
 	margin:0px auto;
 	background:#CCCCCC;
 }
+
+.banner img{width:100%;}
 
 #banner-blip {
 	float:right;

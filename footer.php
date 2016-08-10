@@ -43,4 +43,22 @@
 	<li><a href="#">Subscribe</a></li>
 </ul>-->
 </div>
+
+
+<script src="<?php bloginfo('template_directory'); ?>/js/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/slick/slick.min.js"></script>
+
+<script>
+$(document).ready(function(){
+$('.banner').slick({
+    dots: true,
+    infinite:true,
+    fade: true,
+    adaptiveHeight: true,
+      autoplay: true,
+  autoplaySpeed: 2000,
+    });
+    
+    });</script>
+
 </footer>

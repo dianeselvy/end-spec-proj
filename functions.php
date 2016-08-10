@@ -29,9 +29,8 @@ function get_banner(){
     
 foreach($attachments as $attachment ){
     echo '<div>';
-    echo '<a href="'.wp_get_attachment_image_src( $attachment_id, 'medium' ).'">';
-        echo wp_get_attachment_image($attachment->ID);
-        echo '</a>';
+        echo wp_get_attachment_image($attachment->ID, 'large');
+        
         echo '</div>';
     
 }

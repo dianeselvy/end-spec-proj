@@ -80,7 +80,7 @@
     float: left;
     width: 100%;
     overflow: hidden;
-    height:400px;
+    height:auto;
     min-height: 1px;
 }
 [dir='rtl'] .slick-slide
@@ -92,7 +92,7 @@
     display: block;
       position: relative;
  
-  transform: translateY(-35%);
+  transform: translateY(0%);
 }
 .slick-slide.slick-loading img
 {

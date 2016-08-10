@@ -1,11 +1,17 @@
 <?php get_header(); ?>
 
-	<div id="banner">
+<?php get_banner(); ?>
+
+	<!--<div id="banner">
 	<img src="#">
 		<a href="#"><div id="banner-blip">
 			<p>More Info >></p>
 		</div></a>
-	</div>
+	</div>-->
+    
+    
+    
+    
   <div id="middle">	
   
   	<div id="middle-right">

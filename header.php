@@ -10,12 +10,9 @@
     <!--Google Fonts-->
   <link href='https://fonts.googleapis.com/css?family=Cutive+Mono|Khula:400,600,300' rel='stylesheet' type='text/css'>
     
-
-  <link href='https://fonts.googleapis.com/css?family=PT+Mono|Khula' rel='stylesheet' type='text/css'>
   
-  <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/slick/slick.css"/>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/slick/slick-theme.css"/>
-
 
 </head>
 <header>

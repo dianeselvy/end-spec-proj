@@ -173,7 +173,7 @@ header img {
 #middle-left h1 {
     font-family: 'Cutive Mono';
 	font-weight:normal;
-    font-size:2.4em;
+    font-size:3em;
     color:#7f1518;
 
 }
@@ -203,6 +203,8 @@ header img {
 #showinfo {
 	min-height:100%;
     margin-bottom: 5.8%;
+    background: #E3D3B5;
+    overflow:auto;
 }
 
 #showinfo h3 {
@@ -214,9 +216,9 @@ header img {
 
 #showinfo p {
 	font-weight:300;
-    padding-top: 3.4%;
+    padding-top: 2%;
     margin:0;
-    background: #E3D3B5;
+    
 }
 
 #showinfo img{

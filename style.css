@@ -58,12 +58,12 @@ header {
 header img {
 	height:100px;
 	margin-top:25px;
-	margin-left:170px;
+	margin-left:20px;
 }
 
 #h-buttons {
 	float:right;
-	margin-right:170px;
+	margin-right:20px;
 	font-size:1em;
 }
 

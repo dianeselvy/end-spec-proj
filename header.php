@@ -21,11 +21,11 @@
 
 <div id="h-buttons">
 <?php wp_nav_menu( array( 'theme_location' => 'h-buttons', 'container' => 'div','container_id' => 'h-buttons', ) ); ?>
-<ul>
+<!--<ul>
 	<li><a href="#">Buy Tickets</a></li>
 	<li><a href="#">Donate</a></li>
 	<li><a href="#">Subscribe</a></li>
-</ul>
+</ul>-->
 </div>
 
 <div id="navigation">

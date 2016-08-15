@@ -39,7 +39,12 @@ h3 {
     margin:0;
     
 }
-
+h3.main {
+    padding-bottom: 3%;
+    font-size:1.2em;
+    font-style:italic;
+    
+} 
 #content {
 	height:100%;
 }
@@ -226,8 +231,22 @@ header img {
 	float:left;
     margin-right:5.8%;
 }
+/*STAFF PAGE*/
 
+.staff-member {
+    width:31%;
+    margin-left:2%;
+    margin-top:2%;
+    padding-bottom:2%;
+    float:left;
+    
+}
 
+.staff-member-name {
+    font-size:1.5em;
+    line-height:1.5em;
+    
+}
 
 footer {
 	width:1280px;
@@ -237,6 +256,7 @@ footer {
 	font-weight:300;
 	text-decoration:none;
 	color:#E3D3B5;
+    clear:both;
 }
 
 #foot-left {

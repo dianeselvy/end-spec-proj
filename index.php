@@ -5,6 +5,8 @@
   <div id="content">
   <div id="page-content">
 
+  
+  <?php get_child_pages(); ?>
 
 
 

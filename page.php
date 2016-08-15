@@ -6,10 +6,11 @@
   <div id="page-content">	
   <div id="middle">
   
+<?php if( is_page() && !is_page(11)):  ?> 
   	<div id="middle-right">
 	<?php get_sidebar(); ?>
 	</div> <!--end middle-right -->
-	
+<?php endif; ?>	
 	
 	<div id="middle-left">
   	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>

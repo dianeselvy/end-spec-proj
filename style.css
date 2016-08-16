@@ -35,14 +35,18 @@ h2 {
     color:#7f1518;
 }
 
-#blog-post {
-	color:#000000;	
+#blog-post a{
+	color:#000000;
+	text-decoration:none;	
+}
+
+#blog-post a:hover {
+    color:#7f1518;
 }
 
 h3 {
     font-size:1.875em;
     margin:0;
-    
 }
 
 h3.main {

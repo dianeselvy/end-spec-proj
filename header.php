@@ -5,19 +5,32 @@
   <meta charset="utf-8">
   <meta name="robots" content="noindex">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+  
+  <!-- flexslider stuff -->
+  <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css" media="all" />
+  <script src="<?php bloginfo('template_directory'); ?>/scripts/jquery.flexslider.js"></script>
+  <!-- end flexslider stuff -->
+  
+  
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="all" />
-    
   <link rel="script" href="<?php bloginfo('template_directory');?>/functions.php"/>
 
     <!--Google Fonts-->
   <link href='https://fonts.googleapis.com/css?family=Cutive+Mono|Khula:400,600,300' rel='stylesheet' type='text/css'>
-    
-  
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/slick/slick.css"/>
-    
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/slick/slick.css"/>    
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/slick/slick-theme.css"/>
 
+<!-- more flexslider stuff -->
+<script type="text/javascript">
+    $(window).load(function(){
+        $('.flexslider').flexslider({
+            animation: "fade",
+            slideshow: false,
+        });
+    })
+</script>
+<!-- end more flex slider stuff -->    
+    
 </head>
 <header>
 <a href="http://estp.dianeselvy.com"><img src="<?php bloginfo('template_directory'); ?>/images/estp-2.png" /></a>

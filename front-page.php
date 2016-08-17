@@ -1,6 +1,9 @@
 <?php get_header(); ?>
 
-<?php get_banner(); ?>
+
+<?php add_flexslider(); ?>
+
+<!--<?php get_banner(); ?>-->
 
 	<!--<div id="banner">
 	<img src="#">

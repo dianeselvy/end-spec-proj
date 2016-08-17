@@ -359,3 +359,22 @@ footer {
     color:#7f1518;
     
 }
+
+/*SHOWS*/
+#accordion {
+    width:100%;
+}
+#accordion h1 a {
+    color:#7f1518;
+    text-decoration:none;
+    display:block;
+}
+#accordion div {
+    overflow: hidden;
+    height:0;
+    transition: height 2.5s ease-in-out;
+}
+
+#accordion div:target{
+    height:100%;
+}

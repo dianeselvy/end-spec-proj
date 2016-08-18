@@ -30,9 +30,9 @@ function get_flexslider(){
          echo '<ul class="slides">';
     
 foreach($attachments as $attachment_id => $attachment ){
-    	/*echo '<li>';*/
+    	echo '<li>';
         echo wp_get_attachment_image($attachment_id, 'large');
-        /*echo '</li>';*/
+        echo '</li>';
     
 		}
     

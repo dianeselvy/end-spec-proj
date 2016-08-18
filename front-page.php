@@ -5,6 +5,7 @@
     
   <div id="middle">	
   <?php get_flexslider(); ?>
+  
   	<div id="middle-right">
 	<?php get_sidebar(); ?>
 	</div> <!--end middle-right -->

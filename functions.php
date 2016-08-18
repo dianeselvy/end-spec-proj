@@ -31,7 +31,7 @@ function get_banner(){
     
 foreach($attachments as $attachment ){
     	echo '<li>';
-        echo wp_get_attachment_image($attachment_id, 'large');
+        echo wp_get_attachment_image($attachment_id, 'medium');
         echo '</li>';
     
 		}

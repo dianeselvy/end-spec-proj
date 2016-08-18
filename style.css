@@ -171,17 +171,6 @@ header img {
 
 .flexslider img{width:100%;}
 
-/*
-#banner-blip {
-	float:right;
-	margin-top:250px;
-	margin-right:120px;
-	background:#AAAAAA;
-	text-align:center;
-	padding-left:15px;
-	padding-right:15px;
-}
-*/
 #middle {
     width:100%;
 	max-width:980px;
@@ -369,7 +358,7 @@ footer {
 #accordion div {
     overflow: hidden;
     height:0;
-    transition: height 2.5s ease-in-out;
+    transition-property: height 2.5s ease-in-out;
 }
 
 #accordion div:target{

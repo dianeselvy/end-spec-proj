@@ -17,7 +17,6 @@ echo do_shortcode( '[breadcrumb]' );
   </div> <!-- end page-content -->
   </div> <!-- end content-->
 </body>
-<p>single.php</p>
 
 
 

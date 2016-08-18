@@ -31,6 +31,5 @@
 	</div> <!-- end middle-left -->
 	
   </div> <!-- end middle -->
-	<p>front-page.php</p>
 	
 <?php get_footer(); ?>

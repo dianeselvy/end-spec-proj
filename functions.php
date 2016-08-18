@@ -16,7 +16,7 @@ add_theme_support( 'post-thumbnails' );
 
 
 
-
+/*
 function get_banner(){
     
     global $post;
@@ -42,7 +42,7 @@ foreach($attachments as $attachment ){
 
     
     
-}
+}*/
 
 
 

@@ -49,7 +49,7 @@ function add_flexslider() { // display attachment images as a flexslider gallery
 } // end add flexslider
 
 
-
+/*
 function get_banner(){
     
     global $post;
@@ -73,7 +73,7 @@ foreach($attachments as $attachment ){
     }
     
 }
-
+*/
 
 
 function get_child_pages() {

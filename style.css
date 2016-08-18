@@ -165,7 +165,7 @@ header img {
     display: block;
 }
 
-.banner {
+#banner {
     width:100%;
 	max-width:1280px;
 	margin:0px auto;
@@ -173,7 +173,7 @@ header img {
 
 }
 
-.banner img{width:100%;}
+#banner img{width:100%;}
 
 #banner-blip {
 	float:right;

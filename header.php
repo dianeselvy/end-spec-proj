@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <!-- flexslider stuff -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css" media="all" />
   <script src="<?php bloginfo('template_directory'); ?>/scripts/jquery.flexslider.js"></script>
   <!-- end flexslider stuff -->

@@ -359,6 +359,7 @@ footer {
     overflow: hidden;
     height:0;
     transition-property: height 2.5s ease-in-out;
+    -webkit-transition: height 2.5s ease-in-out;
 }
 
 #accordion div:target{

@@ -19,7 +19,7 @@ add_theme_support( 'post-thumbnails' );
 
 
 
-function get_banner(){
+function get_flexslider(){
     
     global $post;
     $attachments = get_children(array('post_parent'=> $post->ID, 'order' => 'ASC', 'orderby' => 'menu_order', 'post_type' => 'attachment', 'post_mime_type'=> 'image'));

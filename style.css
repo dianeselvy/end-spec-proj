@@ -360,6 +360,9 @@ footer {
     height:0;
     transition-property: height 2.5s ease-in-out;
     -webkit-transition: height 2.5s ease-in-out;
+    -moz-transition:height 2.5s ease-in-out;
+    -o-transition:height 2.5s ease-in-out;
+    transition:height 2.5s ease-in-out;
 }
 
 #accordion div:target{

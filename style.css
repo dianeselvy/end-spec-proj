@@ -161,7 +161,7 @@ header img {
     display: block;
 }
 
-.banner {
+.flexslider {
     width:100%;
 	max-width:1280px;
 	margin:0px auto;
@@ -169,8 +169,9 @@ header img {
 
 }
 
-.banner img{width:100%;}
+.flexslider img{width:100%;}
 
+/*
 #banner-blip {
 	float:right;
 	margin-top:250px;
@@ -180,7 +181,7 @@ header img {
 	padding-left:15px;
 	padding-right:15px;
 }
-
+*/
 #middle {
     width:100%;
 	max-width:980px;

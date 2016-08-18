@@ -1,8 +1,5 @@
 <?php get_header(); ?>
 
-<div id="banner">
-<!--<?php add_flexslider(); ?>-->
-
 <?php get_banner(); ?>
 
 	<!--<div id="banner">
@@ -11,7 +8,7 @@
 			<p>More Info >></p>
 		</div></a>
 	</div>-->
-</div>
+    
     
     
     

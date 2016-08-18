@@ -2,6 +2,8 @@
 
 
 
+
+
 register_nav_menus(array(
 'main-menu' => __( 'Main' ),
 'foot-left' => __( 'Foot-left' ),
@@ -13,7 +15,6 @@ register_nav_menus(array(
 
 
 add_theme_support( 'post-thumbnails' ); 
-
 
 
 
@@ -39,6 +40,9 @@ foreach($attachments as $attachment ){
     echo '</div>';
        
     }
+    
+
+    
     
 }
 
@@ -68,10 +72,3 @@ function get_child_pages() {
 	wp_reset_query(); // reset query
         
 }
-
-
-
-
-
-
-

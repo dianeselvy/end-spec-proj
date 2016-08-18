@@ -29,7 +29,7 @@ function get_banner(){
          echo '<div class="flexslider">';
          echo '<ul class="slides">';
     
-foreach($attachments as $attachment ){
+foreach($attachments as $attachment_id => $attachment ){
     	echo '<li>';
         echo wp_get_attachment_image($attachment_id, 'large');
         echo '</li>';

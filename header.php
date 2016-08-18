@@ -12,9 +12,9 @@
   <!-- end flexslider stuff -->
   
   
- <!-- <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="all" />
+ <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="all" />
   <link rel="script" href="<?php bloginfo('template_directory');?>/functions.php"/>
--->
+
     <!--Google Fonts-->
   <link href='https://fonts.googleapis.com/css?family=Cutive+Mono|Khula:400,600,300' rel='stylesheet' type='text/css'>
 

@@ -73,7 +73,7 @@ function get_child_pages() {
 
 
 
-<?php
+
 
 function add_flexslider() { // display attachment images as a flexslider gallery on single posting
      
@@ -104,4 +104,3 @@ function add_flexslider() { // display attachment images as a flexslider gallery
     
 } // end add flexslider
 
-?>

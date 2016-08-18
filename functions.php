@@ -26,23 +26,20 @@ function get_banner(){
     
     if ($attachments) {
         
-         echo '<div class="banner">';
+         echo '<div class="flexslider">';
+         echo '<ul class="slides">';
     
 foreach($attachments as $attachment ){
-    echo '<div>';
-        echo wp_get_attachment_image($attachment->ID, 'large');
-        
-        echo '</div>';
+    	echo '<li>';
+        echo wp_get_attachment_image($attachment_id, 'large');
+        echo '</li>';
     
-}
+		}
     
-       
+    echo '</ul>';
     echo '</div>';
        
     }
-    
-
-    
     
 }
 

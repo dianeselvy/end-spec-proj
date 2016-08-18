@@ -39,6 +39,15 @@ h2 {
 	color:#000000;	
 }
 
+#blog-post h2 {
+	color:#000000;
+	text-decoration:none;
+}
+
+#blog-post h2 a.hover {
+	color:#7f1518;
+}
+
 h3 {
     font-size:1.875em;
     margin:0;

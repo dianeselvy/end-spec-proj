@@ -1,10 +1,6 @@
 <?php get_header(); ?>
 
 <?php get_banner(); ?>
-
-<div id="flexslider">
-
-</div>
     
     
     
